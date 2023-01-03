@@ -3,3 +3,6 @@ LICENSE
 pubspec.lock
 flutter_default_text.iml
 .DS_Store
+.dart_tool/package_config.json
+.dart_tool/package_config_subset
+.dart_tool/version
