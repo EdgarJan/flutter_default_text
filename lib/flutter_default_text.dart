@@ -5,9 +5,10 @@ import 'package:flutter/material.dart';
 class FlutterDefaultText extends StatelessWidget {
   final String text;
   final TextStyle style;
+  final TextAlign align;
 
   const FlutterDefaultText(
-      {super.key, this.text = '', this.style = const TextStyle()});
+      {super.key, this.text = '', this.style = const TextStyle(), this.align = TextAlign.start});
 
   @override
   Widget build(BuildContext context) {
@@ -21,6 +22,7 @@ class FlutterDefaultText extends StatelessWidget {
         child: Text(
           text,
           style: style,
+          textAlign: align,
         ));
   }
 }
